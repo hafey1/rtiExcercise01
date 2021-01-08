@@ -1,5 +1,25 @@
-## RTI CDS Backend Developer Exercise 01
+-----------------------------------------------------
+## My attempt at Exercise 01
+- [x] 0. Read the Section about **The Data**.
+- [x] 1. Wrote an SQL query that flattened the database shown in sqliteToCSV.png.
+- [x] 2. Used SQLite to export the query to a csv file with the commands .headers on, .mode csv, and .output exercise01.csv.
+- [x] 3. Imported the csv to python and used a pandas dataframe as the data structure for analysis.
+- [x] 4. Performed simple exploratory analysis and generated summary statistics.
+- [x] 5. (1/2) Created a not so simple web app through python and javascript that shows some analysis. I would have liked to do more categorical data analysis but my preprocessing skills are rusty at the moment. 
+- [x] 6. Created a paginated view of the data in my web app.
+- [ ] 7. I was able to generate a box plot of numerical data, but I was unsuccessful in creating a decision tree in a reasonable amount of time so I moved on to other parts.
 
+### Lessons learned
+I heavily enjoyed this exercise, it was adjacent to some of the topics and tools I have been learning during my free time of late and that it was very exciting. However I was being stubborn and wanted to use python for the data
+analysis and as backend to serve information to a front end based in ReactJS. Why? I wanted to see if I could do it. It allowed me to learn about setting up api's and some of the interesting problems about communicating effective information between a front and backend in the realm of data science. There are definitely faster and more effective ways to create graphical solutions like tableau or using a python based frontend but this was for fun. I will be tinkering with this in the coming days to try to create some more meaningful, communicative, and user friendly graphs and models on the front end as well as trying to debug the decision tree preprocessing.
+
+### Running it
+Make sure you have the necessary dependencies for python with pip and make sure to npm install to get the node modules for the front end. I have included a bash script to easily start the application that should work but I can not verify because my bash subsystem is not able to install the dependencies needed. The front end currently runs on localhost:3000 and the backend spins up on 127.0.0.1:3003.
+
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+## RTI CDS Backend Developer Exercise 01
 Welcome to Exercise 01. This exercise provides a small SQLite database with some data derived from the 1996 US Census and a few questions related to working with SQL and open source analysis packages.
 
 ----
